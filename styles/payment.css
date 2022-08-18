@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height:1%;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.navitems{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+.title{
+    width: 20%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 20px;
+    height: 20px;
+}
+.body{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.combine{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    border: 1px solid black;
+
+}
+.address{
+    width: 70%;
+    border: 1px solid black;
+}
+.payment{
+    width: 70%;
+    border: 1px solid black;
+}
+.invoice{
+    width:30% ;
+    border: 1px solid black;
+}

@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.bg{
+    background-image: url("../assets/images/bg.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+     /* You must set a specified height */
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    opacity: 0.8;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+.mydetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.desc{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.details{
+    padding: 20px;
+    width: 200px;
+    background-color: white;
+    text-align: left;
+    margin-right: 40px;
+}
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.btn{
+    width: 20%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    cursor: pointer;
+    
+}
+.types{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+div.gallery {
+    margin: 30px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+    flex-wrap: wrap;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc1 {
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    color: black;
+  }
+  .btn:hover{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;;
+  }
+  
