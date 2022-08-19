@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height:1%;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.navitems{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+.title{
+    width: 30%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 20px;
+    height: 20px;
+}
+.body{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.combine{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 77%;
+    margin-left:100px ;
+
+}
+.address{
+    width: 90%;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px;
+    margin-top:40px;
+    height: 30%;
+}
+.payment{
+    width: 56%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.cardpay{
+    display: flex;
+
+}
+.invoice{
+    width:25% ;
+    margin: 40px;
+    padding: 20px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.heading{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.img{
+    width: 20%;
+    height: 100%;
+
+}
+.store{
+    width: 80%;
+    height: 100%;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+.store p{
+    margin-top: 0px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pay{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.plusminus{
+    display: flex;
+    justify-content: space-evenly;
+    width: 17%;
+    align-items: center;
+    background-color: rgb(206, 204, 204);
+}
+.addhome{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 40%;
+    padding: 15px;
+    border: 0.5px solid rgb(209, 200, 200);
+}
+.addhome button{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    width: 60%;
+    background-color: rgb(127, 127, 235);
+    border: none;
+    color: white;
+    padding: 6px;
+}
+.five{
+    width: 30%;
+    padding: 10px;
+    background-color: rgb(127, 127, 235);
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+.forcard{
+    border: 0.5px solid rgb(209, 200, 200);
+    color: rgb(190, 178, 178);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
